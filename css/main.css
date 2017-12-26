@@ -1618,6 +1618,22 @@ pre .javascript .function {
 .post:last-child .post-eof.post-eof.post-eof {
   display: none;
 }
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight,
+pre {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.highlight,
+code,
+pre {
+  border: 1px solid #d6d6d6;
+}
 .post-gallery {
   display: table;
   table-layout: fixed;
@@ -1823,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd796;
+  background: #54ba5e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2616,7 +2632,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2675,7 +2691,7 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: 700px;
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -2700,7 +2716,7 @@ pre .javascript .function {
   float: left;
   margin-top: 300px;
   width: 240px;
-  background: #f5f7f9;
+  background: rgba(255,255,255,0.7);
   box-shadow: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2857,7 +2873,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 240px;
   color: #555;
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   box-shadow: initial;
   border-radius: initial;
   opacity: 0;
